@@ -8,7 +8,7 @@
 * Impact Factor : 9.88
 
 **Abstract:**
-Distributed congestion monitoring systems often consume excessive memory due to independent telemetry storage and duplication across nodes. This work proposes a memory efficient framework that consolidates telemetry handling and minimizes redundant buffering. By introducing shared aggregation and lightweight data collection, the approach significantly reduces runtime memory overhead. Experimental results across multiple cluster sizes demonstrate improved scalability and efficient resource utilization in distributed environments.
+Multi region distributed systems rely on replica selection for request routing, but static approaches ignore differences in replica processing capacity, leading to inefficient resource utilization and reduced throughput. This work introduces a throughput aware replica selection approach that aligns request distribution with runtime processing capability. By directing traffic toward higher capacity replicas and avoiding overloaded ones, the system improves overall efficiency and scalability. Experimental evaluation across increasing region counts demonstrates significantly higher throughput and better resource utilization compared to baseline methods.
 
 **Key Contributions**
 * **Memory Efficient Monitoring Framework Design:**\
