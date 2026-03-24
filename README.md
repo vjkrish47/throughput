@@ -1,14 +1,11 @@
 # throughput
-Throughput Aware Replica Selection for Multi Region Distributed Systems
-
-# memory
-**Reducing Runtime Overhead in Distributed Congestion Monitoring Systems**
+**Throughput Aware Replica Selection for Multi Region Distributed Systems**
 
 * Author: Vijaya Krishna Namala
-* Published In : International Journal of Technology and Applied Science (IJTAS)
-* Publication Date: Feb 2021
-* E-ISSN: 2230-9004
-* Impact Factor : 10.31
+* Published In : International Journal on Science and Technology (IJSAT) 
+* Publication Date: June 2024
+* E-ISSN:  2229-7677
+* Impact Factor : 9.88
 
 **Abstract:**
 Distributed congestion monitoring systems often consume excessive memory due to independent telemetry storage and duplication across nodes. This work proposes a memory efficient framework that consolidates telemetry handling and minimizes redundant buffering. By introducing shared aggregation and lightweight data collection, the approach significantly reduces runtime memory overhead. Experimental results across multiple cluster sizes demonstrate improved scalability and efficient resource utilization in distributed environments.
@@ -45,10 +42,10 @@ Provides a structured approach for designing resource efficient monitoring syste
   | 11    | 1640                  | 1180                  | 28.05           |
 
 **Citation** \
-Reducing Runtime Overhead in Distributed Congestion Monitoring Systems. \
+Throughput Aware Replica Selection for Multi Region Distributed Systems. \
 Vijaya Krishna Namala \
-International Journal of Technology and Applied Science \
-E-ISSN- 2230-9004  \
+International Journal on Science and Technology.\
+E-ISSN-  2229-7677 \
 **License** \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
