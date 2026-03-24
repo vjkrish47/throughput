@@ -11,6 +11,40 @@
 Multi region distributed systems rely on replica selection for request routing, but static approaches ignore differences in replica processing capacity, leading to inefficient resource utilization and reduced throughput. This work introduces a throughput aware replica selection approach that aligns request distribution with runtime processing capability. By directing traffic toward higher capacity replicas and avoiding overloaded ones, the system improves overall efficiency and scalability. Experimental evaluation across increasing region counts demonstrates significantly higher throughput and better resource utilization compared to baseline methods.
 
 **Key Contributions**
+
+* **Throughput Aware Replica Selection Design:**\
+Developed a routing mechanism that considers runtime processing capacity of replicas instead of uniform distribution to improve request handling efficiency.
+
+* **apacity Driven Request Distribution Mechanism:**\
+Introduced a selection approach that dynamically directs more requests toward higher throughput replicas while avoiding overloaded or constrained regions.
+
+* **Baseline vs Throughput Aware Comparative Analysis:**\
+Conducted detailed experiments comparing static replica selection with throughput aware routing across multiple region configurations.
+
+* **Scalability Evaluation Across Region Sizes:**\
+Analyzed system performance across 3, 5, 7, 9, and 11 regions to study throughput growth and resource utilization under increasing scale.
+
+**Relevance & Real World Impact**
+
+* **Improved Throughput Performance :**\
+Throughput aware routing significantly increases operations per second by aligning request distribution with replica processing capability.
+
+* **Efficient Resource Utilization :**\
+The approach ensures that higher capacity replicas are effectively utilized while preventing overload on weaker replicas.
+
+* **Enhanced Scalability in Multi Region Systems :**\
+System throughput continues to grow consistently as region count increases, avoiding early saturation seen in static routing approaches.
+
+* **Reduced Bottleneck Effects :**\
+By preventing weaker replicas from limiting performance, the system achieves balanced load distribution and stable operation.
+
+* **Academic and Practical Contribution :**\
+Provides a structured foundation for capacity aware routing strategies, supporting research and real world deployment in large scale distributed systems.
+
+
+
+
+**Key Contributions**
 * **Memory Efficient Monitoring Framework Design:**\
 Developed a distributed monitoring architecture that minimizes memory overhead by eliminating redundant telemetry storage across nodes.
 * **Consolidated Telemetry Storage Mechanism:**\
